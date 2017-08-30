@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MonashFriender</string>
+    <string name="title_activity_main_interface">Monash Friend Finder</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="surburbArray">
+        <item>Berwick</item>
+        <item>Carneige</item>
+        <item>Caulfield</item>
+        <item>CBD</item>
+        <item>Clayton</item>
+        <item>Box Hill</item>
+        <item>South Yarra</item>
+        <item>Oakeigh</item>
+        <item>Glen Huntly</item>
+        <item>Paninsula</item>
+        <item>Parkville</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="nativeLanguageArray">
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Hindi</item>
+        <item>Irish Gaelic</item>
+        <item>Latin</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

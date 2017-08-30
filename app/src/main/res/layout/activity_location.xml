@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhangzeyao.monashfriender.LocationActivity">
+
+    <com.mapquest.mapping.maps.MapView
+        android:id="@+id/mapquestMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mapquest_app_key="uauLyOCZEVwv3tBfPOG2RQGiMhCpQan9"
+        />
+</RelativeLayout>
+

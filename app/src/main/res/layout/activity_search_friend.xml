@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhangzeyao.monashfriender.SearchFriendActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/genderCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/dobCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/courseCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/studymodeCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Mode" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/surburbCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surburb" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/nationCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nationality" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/natLanCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Native Language" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/favSportCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favorite Sport" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/favmovieCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favorite Movie" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/favunitCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favorite Unit" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <CheckBox
+            android:id="@+id/currJobCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Job" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search" />
+    </LinearLayout>
+</ScrollView>
